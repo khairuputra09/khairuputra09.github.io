@@ -34,6 +34,7 @@ body{
 	padding: 20px 0;
 }
 
+
 .left .img_holder img{
 	width: 200px;
 	border-radius: 30px;
@@ -66,8 +67,8 @@ body{
 }
 
 .left .icon{
-	font-size: 15px;
-	color: #9153c9;
+	font-size: 20px;
+	color: #9153c9;;
 }
 
 .left .text{
@@ -122,12 +123,17 @@ body{
 }
 
 .skills .li_wrap{
-	background: #fff;
+	background: rgb(37, 31, 31);
 }
 
-.skills .li_wrap .text,
-.hobbies .li_wrap .text{
+.skills.li_wrap .icon{
+	size-adjust: 100%;
+	color: #fff;
+}
+.skills .li_wrap .icon,
+.skills .li_wrap .text{
 	margin-top: 5px;
+	size: px;
 }
 
 .hobbies .li_wrap{
@@ -141,11 +147,12 @@ body{
 
 .hobbies .li_wrap:hover{
 	background: #fff;
+	
 }
 
 .hobbies .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
-	color: #201629;
+	color: #9153c9;
 }
 
 .header{
@@ -201,6 +208,7 @@ span b { font-size: 40px; color: #3525af;}
 .right_inner .li_wrap .date {
     width: 90px;
     color: #9153c9;
+	padding-left: 15px;
 }
 
 .right_inner .li_wrap .info{
@@ -261,3 +269,4 @@ span b { font-size: 40px; color: #3525af;}
 	text-transform: lowercase;
 	color: #fff
 }
+
